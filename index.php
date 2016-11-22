@@ -6,7 +6,7 @@
     {
         $username = $_POST['username'];
         $password = $_POST['password'];
-        $var = "Acgeffgg";
+        $var = "Acffgg";
         $query = "SELECT userName,password,U.userid,groupid FROM users as U
         INNER JOIN usergroups as G
         on U.userid = G.userid       
